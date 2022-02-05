@@ -28,7 +28,7 @@ dictionary = dict(zip(df.eng, df.french))
 # print(dictionary)
 
 # opening the main content file
-f = open("t8.shakespeare.txt" , "r")
+f = open("t8.shakespeare.translated.txt" , "r")
 filedata = f.read()
 f.close()
 
